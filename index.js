@@ -2,10 +2,11 @@
 //   katzDeliLine.push(name)
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 // }  
+ var num = 0
  function takeANumber(katzDeliLine){
-  var num = 0
    katzDeliLine.push(num)
-   
+   num=num+1
+   return num
    
  }
  
